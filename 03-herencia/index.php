@@ -8,6 +8,7 @@ $persona->setNombre('Gabriel');
 
 var_dump($persona);
 
+// $informatico->sabeLenguajes('Javascript');
 
 $informatico->programar();
 var_dump($informatico);

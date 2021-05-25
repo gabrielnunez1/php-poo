@@ -8,7 +8,10 @@ Configuracion::setNewsletter(true);
 
 echo Configuracion::$color."<br>";
 echo Configuracion::$entorno."<br>";
-echo Configuracion::$newsletter;
+echo Configuracion::$newsletter."<br>";
 
-// echo Configuracion::getColor();
+$configuracion = new Configuracion();
+Configuracion::$color='Rojo';
+echo $configuracion::getColor();
+var_dump($configuracion);
 ?>
